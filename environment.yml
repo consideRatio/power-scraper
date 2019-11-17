@@ -1,0 +1,14 @@
+name: power-scraper-env
+dependencies:
+- anaconda
+- python>=3.6
+
+- ipywidgets
+- pandas
+
+- pip
+- pip:
+  - python-dotenv
+  - requests_cache
+  - tqdm
+  - -e git://github.com/consideRatio/entsoe-py.git#egg=entsoe
