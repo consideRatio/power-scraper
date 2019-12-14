@@ -1,3 +1,8 @@
+caches/
+data/
+dataframe_files/
+excel_files/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

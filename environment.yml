@@ -8,8 +8,9 @@ dependencies:
 
 - pip
 - pip:
+  - google-cloud-storage
+  - openpyxl
   - python-dotenv
   - requests_cache
-  - openpyxl
   - tqdm
   - -e git://github.com/consideRatio/entsoe-py.git#egg=entsoe
